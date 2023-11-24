@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quilombo dos Palmares</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <header>
+        <h1>Zumbi dos Palmares</h1>
+
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html" target="_self">Quilombo dos Palmares</a></li>
+                <li><a href="index2.html" target="_self">Vida de Zumbi dos Palmares</a></li>
+                <li><a href="index3.html" target="_self">Morte de Zumbi do Palmares</a></li>
+            </ul>
+        </menu>
+    </header>
+
+    <main>
+        <article>
+
+            <h2>Quilombo dos Palmares</h2>
+
+            <p>Zumbi foi um dos três líderes que se conhece do Quilombo dos Palmares, o maior quilombo que surgiu na história do Brasil. O primeiro registro que se tem desse quilombo remonta a 1597, mas existem algumas especulações de que ele tenha surgido antes. Palmares era o nome que se dava ao conjunto de mocambos que o formava.</p>
+            <p>Entre os mocambos que formavam Palmares estavam Acotirene, Andalaquituche e Aqualtune. O principal deles era Cerca Real do Macaco, muito conhecido também como Mocambo do Macaco. Esse era o centro político de Palmares e chegou a contar com até 6 mil habitantes. Ao todo, fala-se que o complexo que formava Palmares possuía 20 mil habitantes.</p>
+            <p>Cerca Real do Macaco era protegido por uma paliçada e cercado de armadilhas como garantia de segurança. Todos os outros mocambos eram ligados a Cerca Real do Macaco por meio de estradas que se estendiam na região da Serra da Barriga, local onde ficava o Quilombo dos Palmares. Essa região, na época, estava vinculada à capitania de Pernambuco.</p>
+            <p>Palmares teve de lidar com as expedições organizadas por portugueses e holandeses que queriam destruir o quilombo. No período da invasão holandesa, Palmares prosperou, mas, depois que os holandeses foram expulsos, as expedições portuguesas tornaram-se cada vez mais frequentes e resultaram no seu aniquilamento.</p>
+            <p>A destruição de Palmares aconteceu com a expedição de Domingos Jorge Velho, bandeirante contratado a peso de ouro para atacá-lo. Suas tropas eram formadas por milhares de homens (especula-se até 9 mil homens) e equipadas com canhões. Depois de uma luta intensa, Cerca Real do Macaco foi destruído em 1694, forçando os sobreviventes a fugirem.</p>
+        </article>
+    </main>
+
+    <footer>
+        <h3>Site desenvolvido por <a href="https://github.com/andreisilverio" target="_blank">Andrei Silverio</a> em homenagem ao Dia da Consciência Negra.</h3>
+    </footer>
+    <script>
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
